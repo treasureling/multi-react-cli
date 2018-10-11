@@ -1,0 +1,37 @@
+{
+  "name": "multi-react-cli",
+  "version": "1.0.0",
+  "description": "react多页应用脚手架",
+  "main": "index.js",
+  "bin": {
+    "mrcli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treasureling/multi-react-cli.git"
+  },
+  "keywords": [
+    "react",
+    "antd",
+    "多页",
+    "webpack4"
+  ],
+  "author": "treasureling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/treasureling/multi-react-cli/issues"
+  },
+  "homepage": "https://github.com/treasureling/multi-react-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "handlebars": "^4.0.12",
+    "inquirer": "^6.2.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0"
+  }
+}
