@@ -1,6 +1,3 @@
-/**
- * Created by aizhen_ling on 2018/10/11.
- */
 #!/usr/bin/env node
 const fs = require('fs');
 const program = require('commander');
@@ -10,7 +7,7 @@ const inquirer = require('inquirer');
 const ora = require('ora');
 const chalk = require('chalk');
 const symbols = require('log-symbols');
-program.version('1.0.0', '-v, --version')
+program.version('1.0.2', '-v, --version')
 .command('init <name>')
 .action((name) => {
   if(!fs.existsSync(name)){
@@ -53,3 +50,6 @@ program.version('1.0.0', '-v, --version')
 }
 })
 program.parse(process.argv);
+
+
+
